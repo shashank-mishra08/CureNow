@@ -16,7 +16,7 @@ connectCloudinary()
 // middlewares
 app.use(express.json())
 app.use(cors({
-    origin: "https://cure-now.vercel.app"
+    origin: ["https://cure-now.vercel.app", "https://cure-now-vyzf.vercel.app"]
 }))
 
 // api endpoints
